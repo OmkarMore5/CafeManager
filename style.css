@@ -1,0 +1,264 @@
+body {
+    background: url('Images/nathan-dumlao-KixfBEdyp64-unsplash.jpg') no-repeat center center/cover;
+    height: 64vh;
+    color: #fff;
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-reservation {
+    border: 2px solid #ffc107;
+    color: #fff;
+    background: transparent;
+}
+
+.btn-reservation:hover {
+    background: #ffc107;
+    color: #000;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* .nav-link:hover {
+    
+    color: #ffc107;
+} */
+
+li a:hover {
+    color: #ffc107;
+}
+
+.about-section {
+    padding: 50px 0;
+}
+.about-section .image-wrapper {
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.highlight {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #f0ad4e;
+    margin-bottom: 15px;
+}
+.about-section h2 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.about-section p {
+    color: #666;
+}
+
+.main{
+    margin-bottom: 180px;
+}
+
+
+.about-section{
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.bgImg {
+    background: url('Images/demi-deherrera-L-sm1B4L1Ns-unsplash.jpg') no-repeat center center/cover;
+    height: 120vh;
+    color: #fff;
+}
+
+.custom-position {
+    top: 370px;   
+    left: 950px; 
+  }
+
+.reservation-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-reserve {
+    border: 1px solid #ffba00;
+    color: black;
+    background-color: white;
+    height: 60px;
+    margin-top: 23px;
+    width: 300px;
+}
+
+.btn-reserve:hover {
+    background-color: #ffba00;
+    color: white;
+}
+
+input{
+    border-color: none;
+    border-style: none;
+    height: 55px;
+    
+}
+
+.map-container {
+    height: 400px;
+    background-color: #e0e0e0;
+}
+
+.foot-det {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    height: 275px;
+    margin-top: 27px;
+
+}
+
+.foot-det h5 {
+    color: #ffa500;
+}
+
+.foot-det a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.foot-det a:hover {
+    text-decoration: underline;
+}
+
+.foot-det hr {
+    border-top: 1px solid #ffa500;
+    margin: 20px 0;
+}
+/* .card{
+    height: 350px;
+    width: 250px;
+} */
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.menu-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menu-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.menu-header p {
+    color: #666;
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.menu-section {
+    min-width: 100%;
+}
+.menu-section.active {
+    display: block;
+}
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.menu-item {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.menu-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.menu-item-content {
+    padding: 15px;
+    flex: 1;
+}
+.menu-item-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+.menu-item-content p {
+    color: #666;
+    font-size: 0.9em;
+}
+.menu-item-content .price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+} */
+/* .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: #333;
+}
+.tab.active {
+    border-color: orange;
+    color: orange;
+} */
+
+/* img{
+    height: 100%;
+    width: 150px;
+} */
